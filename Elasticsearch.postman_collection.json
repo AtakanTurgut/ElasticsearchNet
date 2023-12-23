@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "4e88161b-2351-4dc2-9af2-f786010e3ecc",
+		"name": "Elasticsearch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27907837",
+		"_collection_link": "https://solar-firefly-811735.postman.co/workspace/New-Team-Workspace~114675ca-fcb4-4258-bdbb-76363a002615/collection/27907837-4e88161b-2351-4dc2-9af2-f786010e3ecc?action=share&source=collection_link&creator=27907837"
+	},
+	"item": [
+		{
+			"name": "CreateData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7050/api/Values/CreateData",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7050",
+					"path": [
+						"api",
+						"Values",
+						"CreateData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDataListWithEF",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7050/api/Values/GetDataListWithEF",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7050",
+					"path": [
+						"api",
+						"Values",
+						"GetDataListWithEF"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDataListWithElasticsearch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7050/api/Values/GetDataListWithElasticsearch",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7050",
+					"path": [
+						"api",
+						"Values",
+						"GetDataListWithElasticsearch"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
